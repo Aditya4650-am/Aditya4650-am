@@ -15,7 +15,6 @@
 
 ### AM TECH · Developer Systems
 
-**AI Agents · Full-Stack · Automation · 3D Web · Developer Tools**
 
 <sub>Build intelligence. Automate the work. Ship the experience.</sub>
 
