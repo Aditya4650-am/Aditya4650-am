@@ -116,12 +116,6 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <text x="0" y="72" fill="url(#nameg)" font-size="66" font-weight="700" letter-spacing="0.4">ADITYA</text>
   <rect x="2" y="88" width="360" height="2" fill="url(#nameg)"/>
 </g>
-<!-- Cycling roles -->
-<text clip-path="url(#r1)" x="48" y="241" font-size="17" fill="#8b5cf6" filter="url(#glow)">&lt; AI Developer /&gt;</text>
-<text clip-path="url(#r2)" x="48" y="241" font-size="17" fill="#8b5cf6" filter="url(#glow)">&lt; AI Agent Builder /&gt;</text>
-<text clip-path="url(#r3)" x="48" y="241" font-size="17" fill="#8b5cf6" filter="url(#glow)">&lt; Automation • APIs /&gt;</text>
-<text clip-path="url(#r4)" x="48" y="241" font-size="17" fill="#8b5cf6" filter="url(#glow)">&lt; 3D Web 3D Creator /&gt;</text>
-<rect x="48" y="228" width="2.5" height="16" fill="#8b5cf6" opacity="0"><animate attributeName="opacity" values="1;0" dur=".8s" repeatCount="indefinite" begin="2.9s"/></rect>
 
 <!-- Quote box -->
 <g class="cl" style="animation:fadeIn .5s ease 3.2s forwards">
