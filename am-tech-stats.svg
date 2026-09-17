@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="AM TECH GitHub statistics">
+<defs>
+  <style><![CDATA[
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+    .title{font-size:20px;font-weight:700;letter-spacing:.2px}
+    .label{font-size:14px;fill:#aeb8c7}
+    .value{font-size:16px;font-weight:700;fill:#f5f7fb}
+    .small{font-size:11px;fill:#7f8a9b}
+    @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
+    .item{opacity:0;animation:fade .55s ease forwards}
+    .ring{animation:pulse 2.5s ease-in-out infinite}
+  ]]></style>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#22d3ee"/><stop offset=".52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee"><animate attributeName="stop-color" values="#22d3ee;#8b5cf6;#ec4899;#22d3ee" dur="7s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="#ec4899"><animate attributeName="stop-color" values="#ec4899;#22d3ee;#8b5cf6;#ec4899" dur="7s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="758" height="298" rx="18" fill="#0b0f18" stroke="url(#border)" stroke-width="1.5"/>
+<rect x="24" y="22" width="712" height="2" rx="1" fill="url(#accent)"/>
+<text x="28" y="58" class="title" fill="url(#accent)">AM TECH · GITHUB COMMAND CENTER</text>
+<text x="28" y="78" class="small">Live profile metrics • clean, readable and mobile-safe</text>
+
+<g class="item" style="animation-delay:.15s"><rect x="28" y="105" width="210" height="66" rx="12" fill="#111722" stroke="#263043"/>
+<text x="46" y="130" class="label">Stars earned</text><text x="46" y="153" class="value">SYNC</text></g>
+<g class="item" style="animation-delay:.3s"><rect x="250" y="105" width="210" height="66" rx="12" fill="#111722" stroke="#263043"/>
+<text x="268" y="130" class="label">Total commits</text><text x="268" y="153" class="value">READY</text></g>
+<g class="item" style="animation-delay:.45s"><rect x="472" y="105" width="126" height="66" rx="12" fill="#111722" stroke="#263043"/>
+<text x="490" y="130" class="label">Repos</text><text x="490" y="153" class="value">LIVE</text></g>
+<g class="item" style="animation-delay:.6s"><rect x="610" y="105" width="126" height="66" rx="12" fill="#111722" stroke="#263043"/>
+<text x="628" y="130" class="label">Followers</text><text x="628" y="153" class="value">OPEN</text></g>
+
+<g class="item" style="animation-delay:.75s"><rect x="28" y="190" width="570" height="78" rx="14" fill="#101621" stroke="#263043"/>
+<text x="48" y="218" class="label">AI systems</text><text x="48" y="244" class="value">BUILDING INTELLIGENCE · AUTOMATION · 3D WEB</text>
+<rect x="48" y="253" width="500" height="3" rx="1.5" fill="#202b3e"/><rect x="48" y="253" width="365" height="3" rx="1.5" fill="url(#accent)"/></g>
+
+<g transform="translate(668 229)" class="ring"><circle r="31" fill="none" stroke="#202b3e" stroke-width="7"/><circle r="31" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-dasharray="150 45" transform="rotate(-90)" filter="url(#glow)"/><text y="6" text-anchor="middle" font-size="22" font-weight="700" fill="#f5f7fb">A</text></g>
+</svg>
